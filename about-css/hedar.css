@@ -1,0 +1,50 @@
+*{
+    padding: 0  ;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1400px;
+    border: solid; 
+}
+
+header>nav{
+    display: flex;
+}
+header>nav>ul{
+    width: 50%;
+    border: solid red;
+    display: flex;
+  
+}
+header>nav>ul:nth-child(2){
+    justify-content: end;
+}
+header>nav>ul>li:nth-child(1){
+   margin-left: 100px;
+}
+header>nav>ul>li{
+    list-style: none;
+    padding: 10px;
+    
+}
+header>nav>ul>li>img:nth-child(1){
+    width: 1.5vw;
+}
+header>nav>ul>li>img:nth-child(2){
+    width: 10vw;
+}
+header>nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+header>nav>ul>li>a:hover{
+    background-color: gainsboro;
+}
+
+
+
+

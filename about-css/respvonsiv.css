@@ -1,0 +1,107 @@
+@media only screen and (max-width:768px){
+    header>nav>ul>li:nth-child(1){
+        display: flex;
+        margin-left: 0px;
+    }
+    header>nav>ul>li>img:nth-child(1){
+        text-align: right;
+        width: 4vw;
+        height: 4vw;
+    }
+    header>nav>ul>li>img:nth-child(2){
+        height: 4vw;
+        width: 30vw;
+
+    }
+    main{
+        background-image: url(../imgaboout/Group\ 6\ \(1\).png);
+        background-size: 700px;
+        margin-left: 50px;
+        background-repeat: no-repeat;
+    }
+    main>div{
+        display: none;
+    }
+    .main2{
+        background-image: url(../imgaboout/group\ 7.png);
+        background-size: 700px;
+        margin-left: 50px;
+        background-repeat: no-repeat;
+
+    }
+    .main2>div{
+        display: none;
+    }
+    .main3{
+       background-image: url(../imgaboout/Group\ 8\ \(2\).png);
+       background-repeat: no-repeat;
+       
+    }
+    .main3>div{
+        margin-top: -100000000px;
+    }
+    .main4{
+        padding-left: 0px;
+
+    }
+    
+    
+}
+
+@media only screen and (max-width:375px){
+    .hanburger{ 
+        font-size: 5vw;
+        padding-top: 45px;
+        
+    }
+    .hanburger>button>i{
+        padding: 10px;
+    }
+
+    header>nav>.list2{
+        display: none;
+
+    }
+    header>nav>ul>li:nth-child(1){
+        display: flex;
+        margin-left: 0px;
+    }
+    header>nav>ul>li>img:nth-child(1){
+        text-align: right;
+        width: 30vw;
+        height: 5vw;
+    }
+    header>nav>ul>li>img:nth-child(2){
+        height: 5vw;
+        width: 50vw;
+    }
+    main{
+        width: 1000px;
+        height: 800px;
+        background-image: url(../imgaboout/Group\ 4\ \(1\).png);
+        background-size: 800px;
+        margin-left: 100px;
+        background-repeat: no-repeat;
+    }
+    main>div{
+        display: none;
+    }
+    .main2{
+        width: 900px;
+        height: 500px;
+    }
+    .main3{
+        width: 1000px;
+        height: 800px;
+    }
+    .main4{
+        width: 1000px;
+        height: 800px;
+    }
+    .end{
+        
+    width: 1000px;
+    height: 800px;
+        
+    }
+}

@@ -1,0 +1,128 @@
+.main4{
+    margin-top: 20px;
+}
+@media only screen and (max-width:1350px){
+    main{
+        margin-left: 7px;
+    }
+    .main2{
+        margin-left: 7px;
+    }
+    .main3{
+        margin-left: 7px;
+    }
+    .main4{
+
+        margin-left: 7px;
+    }
+}
+@media only screen and (max-width:768px){
+    header>nav>ul>li:nth-child(1){
+        display: flex;
+        margin-left: 0px;
+    }
+    header>nav>ul>li>img:nth-child(1){
+        text-align: right;
+        width: 4vw;
+        height: 4vw;
+    }
+    header>nav>ul>li>img:nth-child(2){
+        height: 4vw;
+        width: 30vw;
+
+    }
+    main>div{
+        display: none;
+
+    }
+    main{
+        background-image: url(../IMG/Group\ 6.png);
+        background-size: 720px;
+    }
+    .main2{
+        background-image: url(../IMG/Group\ 14\ \(2\).png);
+        background-size: 700px;
+        height: 100vh;
+    }
+    .main3>div{
+        display: none;
+
+    }
+    .main3{
+        background-image: url(../Img2/Group\ 17.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        height: 100vh;
+    }
+    .main4>div{
+        display: none;
+    }
+    .main4{
+        background-image: url(../Img2/Group\ 20\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+    }
+    .end>nav{
+        display: none;
+    }
+    .end{
+        height: 45vh;
+        margin-left: 0vw;
+        background-image: url(../Img2/Group\ 23.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .hanburger{
+        padding-top: 45px;
+        margin-left: 100px;
+    }
+
+    header>nav>.list2{
+        display: none;
+
+    }
+    header>nav>ul>li:nth-child(1){
+        display: flex;
+        margin-left: 0px;
+    }
+    header>nav>ul>li>img:nth-child(1){
+        text-align: right;
+        width: 5vw;
+        height: 5vw;
+    }
+    header>nav>ul>li>img:nth-child(2){
+        height: 5vw;
+        width: 35vw;
+    }
+    main{
+        background-image: url(../Img2/Group\ 4.png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+    }
+    .main2{
+        background-image: url(../Img2/Group\ 9.png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+    }
+    .main3{
+        height: 300vh;
+        background-image: url(../Img2/Group\ 12\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+    }
+    .main4{
+        height: 300vh;
+        background-image: url(../Img2/Group\ 15.png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+    }
+    .end{
+        height: 60vh;
+        background-image: url(../Img2/Group\ 18.png);
+        background-repeat: no-repeat;
+        background-size: 330px;
+    }
+}

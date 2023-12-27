@@ -1,0 +1,50 @@
+.end{
+    background-color: #2C343E;
+    max-width: 1400px;
+    height: 10vh;
+    border: solid rgba(255, 0, 0, 0); 
+    margin-left: 3vw;
+    border-radius: 10px;
+}
+
+.end>nav{
+    display: flex;
+    height: 100%;
+}
+.end>nav>ul{
+    width: 50%;
+    height: 100%;
+    border: solid rgba(255, 0, 0, 0);
+    display: flex;
+  
+}
+
+.end>nav>ul>li:nth-child(1){
+   margin-left: 100px;
+}
+
+.end>nav>ul>li{
+
+    list-style: none;
+    padding: 10px;
+    
+}
+.end>nav>ul>li>img:nth-child(1){
+
+    width: 14vw;
+}
+
+.end>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.end>nav>ul>li>a:hover{
+    background-color: black;
+}
+
+
+
+
